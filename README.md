@@ -24,6 +24,6 @@ Welcome to the Advent of Code 2024 repository. This project contains solutions t
 
 ## Credits
 - **Advent of Code**: The original puzzles are provided by [Advent of Code](https://adventofcode.com/).
-- **Your Name**: Solutions and repository maintenance.
+- **David L. Bowman**: [GitHub](https://github.com/davidlbowman).
 
 Happy coding 🎄👍
