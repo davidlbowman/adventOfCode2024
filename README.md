@@ -1,4 +1,4 @@
-# Advent of Code 2024 README
+# Advent of Code 2024
 
 ## Overview
 Welcome to the Advent of Code 2024 repository. This project contains solutions to the daily puzzles provided by [Advent of Code](https://adventofcode.com/).
