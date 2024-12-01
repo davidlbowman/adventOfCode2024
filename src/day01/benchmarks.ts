@@ -13,7 +13,4 @@ bench("Day 01 - Part 2 ", () => {
 	day01part2(input);
 });
 
-run({
-	colors: true,
-	format: "markdown",
-});
+run();
