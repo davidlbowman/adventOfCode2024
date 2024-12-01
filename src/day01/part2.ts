@@ -1,6 +1,4 @@
-import { readFileSync } from "node:fs";
-
-function calculateSimilarityScore(input: string): number {
+export function day01part2(input: string): number {
 	const rows = input
 		.trim()
 		.split("\n")
@@ -28,7 +26,3 @@ function calculateSimilarityScore(input: string): number {
 
 	return similarityScore;
 }
-
-const input = readFileSync("./src/day01/input.txt", "utf8");
-const result = calculateSimilarityScore(input);
-console.log(result);

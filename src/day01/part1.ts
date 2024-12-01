@@ -1,6 +1,4 @@
-import { readFileSync } from "node:fs";
-
-function calculateDistance(input: string): number {
+export function day01Part1(input: string): number {
 	const rows = input
 		.trim()
 		.split("\n")
@@ -25,7 +23,3 @@ function calculateDistance(input: string): number {
 
 	return totalDistance;
 }
-
-const input = readFileSync("./src/day01/input.txt", "utf8");
-const result = calculateDistance(input);
-console.log(result);
