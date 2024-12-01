@@ -13,15 +13,15 @@ Welcome to the Advent of Code 2024 repository. This project contains solutions t
 - **Pull Requests**: Welcome for improvements and additional solutions.
 - **Issues**: Use for reporting bugs or suggesting enhancements.
 
-## Important Dates
+## Important Dates$$
 - **Start Date**: December 1st, 2024, at midnight EST (UTC-5).
 - **End Date**: December 25th, 2024.
 
-## Benchmarks:
-| benchmark        |              avg |         min |         p75 |         p99 |         max |
-| ---------------- | ---------------- | ----------- | ----------- | ----------- | ----------- |
-| Day 01 - Part 1  | `278.00 µs/iter` | `255.38 µs` | `270.57 µs` | `479.57 µs` | `  1.31 ms` |
-| Day 01 - Part 2  | `141.61 µs/iter` | `119.95 µs` | `136.68 µs` | `385.48 µs` | `  1.39 ms` |
+| benchmark           |              avg |         min |         p75 |         p99 |         max |
+| ------------------- | ---------------- | ----------- | ----------- | ----------- | ----------- |
+| Day 01 - Read Input | `  2.30 µs/iter` | `  2.17 µs` | `  2.35 µs` | `  2.54 µs` | `  2.59 µs` |
+| Day 01 - Part 1     | `244.07 µs/iter` | `219.55 µs` | `237.91 µs` | `473.99 µs` | `  1.45 ms` |
+| Day 01 - Part 2     | `137.47 µs/iter` | `113.54 µs` | `131.08 µs` | `361.58 µs` | `  1.29 ms` |
 
 ## Credits
 - **Advent of Code**: The original puzzles are provided by [Advent of Code](https://adventofcode.com/).
