@@ -1,29 +1,34 @@
-function isValidSequence(levels: number[]): boolean {
-	if (levels.length < 2) return true;
+function isValidSequence(levels: number[], skipIndex = -1): boolean {
+	const len = levels.length;
+	if (len < 2) return true;
 
-	let isValid = true;
+	let prev = skipIndex === 0 ? levels[1] : levels[0];
+	let i = skipIndex === 0 ? 2 : 1;
 
-	for (let i = 1; i < levels.length; i++) {
-		const diff = Math.abs(levels[i] - levels[i - 1]);
-		if (diff < 1 || diff > 3) {
-			isValid = false;
-			break;
+	while (i < len && i === skipIndex) i++;
+	if (i >= len) return true;
+
+	const isIncreasing = levels[i] > prev;
+
+	for (; i < len; i++) {
+		if (i === skipIndex) continue;
+
+		const curr = levels[i];
+		const diff = curr - prev;
+
+		if (
+			Math.abs(diff) < 1 ||
+			Math.abs(diff) > 3 ||
+			(isIncreasing && diff <= 0) ||
+			(!isIncreasing && diff >= 0)
+		) {
+			return false;
 		}
+
+		prev = curr;
 	}
 
-	if (isValid) {
-		const firstDiff = levels[1] - levels[0];
-		const isIncreasing = firstDiff > 0;
-
-		for (let i = 2; i < levels.length && isValid; i++) {
-			const diff = levels[i] - levels[i - 1];
-			if ((isIncreasing && diff <= 0) || (!isIncreasing && diff >= 0)) {
-				isValid = false;
-			}
-		}
-	}
-
-	return isValid;
+	return true;
 }
 
 export function day02Part2(reports: string[]): number {
@@ -40,8 +45,7 @@ export function day02Part2(reports: string[]): number {
 		}
 
 		for (let i = 0; i < levels.length; i++) {
-			const modifiedLevels = [...levels.slice(0, i), ...levels.slice(i + 1)];
-			if (isValidSequence(modifiedLevels)) {
+			if (isValidSequence(levels, i)) {
 				safeCount++;
 				break;
 			}
