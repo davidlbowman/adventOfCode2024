@@ -13,7 +13,7 @@ Welcome to the Advent of Code 2024 repository. This project contains solutions t
 - **Pull Requests**: Welcome for improvements and additional solutions.
 - **Issues**: Use for reporting bugs or suggesting enhancements.
 
-## Important Dates$$
+## Important Dates
 - **Start Date**: December 1st, 2024, at midnight EST (UTC-5).
 - **End Date**: December 25th, 2024.
 
