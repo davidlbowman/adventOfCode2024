@@ -27,7 +27,7 @@ Welcome to the Advent of Code 2024 repository. This project contains solutions t
 | Day 02 - Part 2     | `265.55 µs/iter` | `236.12 µs` | `264.43 µs` | `460.34 µs` | `  1.12 ms` |
 | Day 03 - Read Input | `  3.30 µs/iter` | `  3.03 µs` | `  3.40 µs` | `  3.72 µs` | `  3.85 µs` |
 | Day 03 - Part 1     | ` 50.43 µs/iter` | ` 43.18 µs` | ` 46.46 µs` | `110.05 µs` | `  1.16 ms` |
-| Day 03 - Part 2     | ` 74.89 µs/iter` | ` 60.98 µs` | ` 69.75 µs` | `170.16 µs` | `  1.16 ms` |
+| Day 03 - Part 2     | ` 58.23 µs/iter` | ` 49.03 µs` | ` 53.48 µs` | `148.74 µs` | `  1.10 ms` |
 
 ## Credits
 - **Advent of Code**: The original puzzles are provided by [Advent of Code](https://adventofcode.com/).
