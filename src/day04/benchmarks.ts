@@ -13,9 +13,9 @@ bench("Day 04 - Part 1", () => {
 	day04Part1(input);
 });
 
-// bench("Day 04 - Part 2 ", () => {
-// 	day04Part2(input);
-// });
+bench("Day 04 - Part 2 ", () => {
+	day04Part2(input);
+});
 
 run({
 	format: "markdown",
