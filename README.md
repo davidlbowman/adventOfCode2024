@@ -28,6 +28,9 @@ Welcome to the Advent of Code 2024 repository. This project contains solutions t
 | Day 03 - Read Input | `  3.30 µs/iter` | `  3.03 µs` | `  3.40 µs` | `  3.72 µs` | `  3.85 µs` |
 | Day 03 - Part 1     | ` 50.43 µs/iter` | ` 43.18 µs` | ` 46.46 µs` | `110.05 µs` | `  1.16 ms` |
 | Day 03 - Part 2     | ` 58.23 µs/iter` | ` 49.03 µs` | ` 53.48 µs` | `148.74 µs` | `  1.10 ms` |
+| Day 04 - Read Input | `  2.90 µs/iter` | `  2.70 µs` | `  3.00 µs` | `  3.19 µs` | `  3.29 µs` |
+| Day 04 - Part 1     | `413.07 µs/iter` | `372.41 µs` | `398.49 µs` | `  1.08 ms` | `  1.38 ms` |
+| Day 04 - Part 2     | `394.95 µs/iter` | `310.69 µs` | `388.80 µs` | `  1.03 ms` | `  1.36 ms` |
 
 ## Credits
 - **Advent of Code**: The original puzzles are provided by [Advent of Code](https://adventofcode.com/).
